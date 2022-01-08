@@ -1,8 +1,13 @@
-import React  from "react";
-import Display from "./components/Display";
+import './App.css';
+import BucketList from "./components/BucketList"
 
-function App(){
-  return <Display></Display>
-};
+
+function App() {
+  return (
+    <div className="bucket-app">
+      <BucketList/>
+    </div>
+  );
+}
 
 export default App;
